@@ -1,1 +1,4 @@
-# makefromvoid.github.io
+freshman
+========
+
+a jekyll blog theme
