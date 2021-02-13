@@ -1,8 +1,6 @@
-url: "https://github.com/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://makefromvoid.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
-title: "" # the name of your site, e.g. ACME Corp.
-
-repository: "makefromvoid/makefromvoid.github.io"
+title: "makefromvoid" # the name of your site, e.g. ACME Corp.
 
 sass:
     sass_dir: _sass
