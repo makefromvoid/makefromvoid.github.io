@@ -36,16 +36,11 @@ exclude:
   - Gemfile
   - Gemfile.lock
 
-# Pagination (using jekyll-paginate-v2)
-pagination:
-  enabled: true
-  per_page: 4 
-  paginate_path: "/page:num"
-  sort_reverse: true
-  title: ":title"
-  trail:
-    before: 2
-    after: 2
+# Pagination (using jekyll-paginate)
+# Note jekyll-paginate-v2 is not supported out of the box
+paginate: 5
+paginate_path: "/page:num"
+
 
 # Plugins
-plugins: [jekyll-paginate-v2, jekyll-sitemap]
+plugins: [jekyll-paginate, jekyll-sitemap]
