@@ -1,0 +1,23 @@
+<!-- NAV -->
+<nav class="navbar navbar-expand-md navbar-light py-xs-2 py-md-4">
+  <div class="container">
+    <a href="{{ site.baseurl }}/" class="navbar-brand">
+      <h2 class="d-none d-md-inline align-middle pl-3 text-primary">{{site.brand}}</h2>
+    </a>
+    <button class="navbar-toggler float-right" data-toggle="collapse" data-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a href="/" class="nav-link">Home</a> <!-- TODO: replace with Jekyll 'data' iteration -->
+        </li>
+        <li class="nav-item">
+          <!-- content under /pages with a permalink entry in the Front Matter are accessible through /xxx/ 
+          e.g. a markdown page /pages/about.md will be accessible as url/about/-->
+          <a href="/about/" class="nav-link">About</a> 
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

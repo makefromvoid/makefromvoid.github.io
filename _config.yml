@@ -1,7 +1,33 @@
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "" # the subpath of your site, e.g. /blog
-title: "makefromvoid" # the name of your site, e.g. ACME Corp.
+# Note: 
+#   Variables defined in this file are in the 'site' namespace e.g. site.brand
+#   Variables defined in index.md are in the 'page' namespace e.g. page.title
+# The following page describes the default configuration options/values:
+#     https://jekyllrb.com/docs/configuration/default/
 
+# Site settings
+author: Maarten
+baseurl: "" # the subpath of your site, e.g. /blog
+brand: "makefromvoid" # used in navnar.html:html.body.nav.div.a.h2
+copyright: abts.io
+description: A clean Jekyll theme with baked in Bootstrap 4, responsive images, and more...
+email: example@example.com 
+title: "makefromvoid" # used in head.html:head.title -> used in browser tab hover
+url: "" # the base hostname & protocol of the site
+lang: "en-IE" # used in default.html:html.lang
+
+# Defaults : these allow you to set default values for front matter
+defaults:
+  - scope:
+      path: "_posts"
+      type: posts
+    values:
+      layout: post 
+      type: post
+  - scope:
+      path: "pages"
+      type: pages
+    values:
+      layout: default 
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -9,3 +35,17 @@ title: "makefromvoid" # the name of your site, e.g. ACME Corp.
 exclude:
   - Gemfile
   - Gemfile.lock
+
+# Pagination (using jekyll-paginate-v2)
+pagination:
+  enabled: true
+  per_page: 4 
+  paginate_path: "/page:num"
+  sort_reverse: true
+  title: ":title"
+  trail:
+    before: 2
+    after: 2
+
+# Plugins
+plugins: [jekyll-paginate-v2, jekyll-sitemap]

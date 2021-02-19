@@ -2,8 +2,10 @@
 <html lang="{{ site.lang | default: "en-US" }}">
   {%- include head.html -%}
   <body>
-    {%- include header.html -%}
-    {{ content }}
+    {% include navbar.html %}
+    {% include jumbotron.html %}
+    {{ content }} <!-- content of index.md -->
+    {% include pagination.html %}
     {%- include footer.html -%}
   </body>
 </html>

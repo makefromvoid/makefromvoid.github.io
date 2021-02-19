@@ -1,0 +1,40 @@
+---
+---
+// This (/assets/css/styles.scss) is the main / entrypoint Sass file, by having empty front matter 
+// it gets automatically processed by the Jekyll SCSS Converter, 
+// see https://jekyllrb.com/docs/step-by-step/07-assets/ for details
+// The output css file is placed in _site/assets e.g. _site/assets/styles.css 
+// _site/assets/styles.css is referenceced in head.html:head.link.stylesheet
+
+// Note: order of processing is from top to bottom so styles in the last sass override those in the first sass
+@import "custom/_variables"; // contains scss variables used in various sass scripts
+@import "bootstrap/bootstrap";
+@import "custom/includes/navbar";
+@import "custom/includes/jumbotron";
+@import "main"; // reference to _sass/main.scss
+
+// Finally
+//@import "debug" // add outlines to elements
+
+
+//@import "custom/_variables";
+
+
+
+
+// from Sakura Jekyll theme
+//@import "./custom/_variables";
+//@import "./bootstrap/bootstrap";
+//@import "./instantsearch/instantsearch";
+//@import "./instantsearch/instantsearch-theme-algolia";
+//@import "./custom/includes/buttons";
+//@import "./custom/includes/card";
+//@import "./custom/includes/copy_to_clipboard";
+//@import "./custom/includes/navbar";
+//@import "./custom/includes/images";
+//@import "./custom/includes/jumbotron";
+//@import "./custom/includes/pagination";
+//@import "./custom/includes/social_links";
+//@import "./custom/includes/syntax_highlighting";
+//@import "./custom/includes/tables";
+//@import "./custom/includes/type";
