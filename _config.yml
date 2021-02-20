@@ -43,4 +43,7 @@ paginate_path: "/page:num"
 
 
 # Plugins
+# IMPORTANT when deploying to GitHub Pages ensure that Gemfile.lock is not pushed. 
+# Github pages only supports certain versions of plugins and scans the code to establish waht 
+# Gems and their versions need to be installed
 plugins: [jekyll-paginate, jekyll-sitemap]
