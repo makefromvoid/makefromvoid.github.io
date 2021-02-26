@@ -38,12 +38,12 @@ exclude:
 
 # Pagination (using jekyll-paginate)
 # Note jekyll-paginate-v2 is not supported out of the box
-paginate: 5
+paginate: 4
 paginate_path: "/page:num"
 
 
 # Plugins
 # IMPORTANT when deploying to GitHub Pages ensure that Gemfile.lock is not pushed. 
 # Github pages only supports certain versions of plugins and scans the code to establish waht 
-# Gems and their versions need to be installed
+# Gems and their versions need to be installed -> https://pages.github.com/versions/
 plugins: [jekyll-paginate, jekyll-sitemap]
