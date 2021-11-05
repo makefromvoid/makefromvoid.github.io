@@ -5,6 +5,7 @@ category: Electronics
 categories:
 - avr
 - electronics
+- halloween
 image: /assets/images/normal/2011/10/img_3800.jpg
 image-caption: test image caption
 type: post # used in _layouts/posts.html:section
@@ -38,10 +39,14 @@ Ready to be tested..
 
 ![]({{ site.baseurl }}/assets/images/normal/2011/10/img_3762_small.jpg){:class="img-blog-post"}
 
-I'll try to add a video of the eyes in action once I have figured out how to add video. They did look spooky and on Haloween night they were a great sucess with the 'trick or treaters'
+Below is a video of the eyes in action, they did look very spooky out in the garden on Haloween night and were a great sucess with the 'trick or treaters'
 
-![]({{ site.baseurl }}/assets/images/normal/2011/10/img_3800_small.jpg){:class="img-blog-post"}
-
+<video width="300" height="200" poster="{{ site.baseurl }}/assets/images/normal/2011/10/img_3800_small.jpg" muted loop autoplay>
+    <source src="{{ site.baseurl }}/assets/video/normal/2011/10/MVI_3552.mp4" type="video/mp4"/>
+    <source src="{{ site.baseurl }}/assets/video/normal/2011/10/MVI_3552.webm" type="video/webm"/> 
+    Your Video does not support the video tag.
+</video>
+<br>
 Of course there were pumpkins as well!
 
 ![]({{ site.baseurl }}/assets/images/normal/2011/10/img_3803_small.jpg){:class="img-blog-post"}
