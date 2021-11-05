@@ -2,6 +2,8 @@
 title: EL Halloween
 description: Scaring using Electroluminescence
 category: Halloween
+categories:
+- halloween
 image: /assets/images/normal/2012/10/2012-10-13-19.jpg
 image-caption: test image caption
 type: post # used in _layouts/posts.html:section
