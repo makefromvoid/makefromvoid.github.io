@@ -34,7 +34,7 @@ Now it was time to purchase 2 sets of parts i.e. 2 times:
 - Zener Diode
 - Battery Holder
 
-![]({{ site.baseurl }}/assets/images/normal/2013/10/2013-10-20 11.53.03_small.jpg){:class="img-blog-post"}
+![]({{ site.baseurl }}/assets/images/normal/2013/10/2013-10-23 21.05.30_small.jpg){:class="img-blog-post"}
 
 
 Sean's Animation 
@@ -51,3 +51,6 @@ Tess's Animation
     Your Video does not support the video tag.
 </video>
 
+Here are the boy and girl showing off the finished articles.
+
+![]({{ site.baseurl }}/assets/images/normal/2013/10/2013-10-25 08.35.12_small.jpg){:class="img-blog-post"}
