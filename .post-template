@@ -3,7 +3,7 @@ title: Title
 description: Description
 Category:
 # categories:
-image: /assets/images/normal/2009/01/template.jpg
+featured-img: normal/2009/01/template.jpg
 image-caption: test image caption
 type: post # used in _layouts/posts.html:section
 # Note: layout type of files in '_posts' is configured as 'post' in _config.yml

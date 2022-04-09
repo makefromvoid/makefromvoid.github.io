@@ -2,7 +2,7 @@
 title: 5 dangerous things you should let your kids do
 description: Enough Mollycoddling already
 category: 
-image: /assets/images/normal/2012/04/cimg0440.jpg
+featured-img: normal/2012/04/cimg0440
 image-caption: test image caption
 type: post # used in _layouts/posts.html:section
 # Note: layout type of files in '_posts' is configured as 'post' in _config.yml

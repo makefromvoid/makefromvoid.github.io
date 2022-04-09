@@ -1,3 +1,21 @@
 .img-blog-post {
   padding: 6px;
 }
+
+// == Bootstrap overrides ==
+// Main Title in Jumbotron
+.display-1 {
+  font-size: 2em;
+
+  // breakpoints mixins defined in: _sass/bootstrap/mixins/_breakpoints.scss
+  // breakpoint breakpointname variables (`$grid-breakpoints`) defined in: _sass/bootstrap/_variables.scss
+  @include media-breakpoint-up(sm) {
+    font-size: 6em;
+  }
+}
+
+// Card Text
+.card-text {
+  font-size: 1.25em;
+  color: rgb(50, 205, 135);
+}

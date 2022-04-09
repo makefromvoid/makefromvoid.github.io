@@ -6,7 +6,7 @@ categories:
 - avr
 - electronics
 - halloween
-image: /assets/images/normal/2013/10/2013-10-25 08.35.12_small.jpg
+featured-img: normal/2013/10/2013-10-25 08.35.12
 image-caption: test image caption
 type: post # used in _layouts/posts.html:section
 # Note: layout type of files in '_posts' is configured as 'post' in _config.yml

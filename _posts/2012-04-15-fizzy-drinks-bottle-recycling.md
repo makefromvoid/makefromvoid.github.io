@@ -2,7 +2,7 @@
 title: Fizzy drinks bottle recycling
 description: Doing out bit for the environment
 category: 
-image: /assets/images/normal/2012/04/img_4120.jpg
+featured-img: normal/2012/04/img_4120
 image-caption: test image caption
 type: post # used in _layouts/posts.html:section
 # Note: layout type of files in '_posts' is configured as 'post' in _config.yml

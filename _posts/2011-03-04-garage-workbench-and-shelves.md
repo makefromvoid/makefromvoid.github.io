@@ -2,7 +2,7 @@
 title: Garage workbench and shelves
 description: Building a place for bigger projects
 category: 
-image: /assets/images/normal/2011/03/img_1317.jpg
+featured-img: normal/2011/03/img_1317
 image-caption: test image caption
 type: post # used in _layouts/posts.html:section
 # Note: layout type of files in '_posts' is configured as 'post' in _config.yml

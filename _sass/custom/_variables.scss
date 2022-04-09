@@ -6,16 +6,6 @@
 $primary:  #1c2aeb; //
 $highlight: lighten($primary, 0%);
 
-// Grid
-$grid-breakpoints: (
-  xs: 0,
-  /* custom: between xs and sm used in footer */ xssm: 425px,
-  sm: 576px,
-  md: 768px,
-  lg: 992px,
-  xl: 1200px
-);
-
 // Links
 $link-color: #3194c3;
 $link-hover-color: $primary;
@@ -26,3 +16,13 @@ $link-decoration: none;
 $tooltip-bg: #3194c3;
 $tooltip-color: white;
 $tooltip-opacity: 0.9;
+
+
+// FROM https://github.com/janczizikow/sleek
+// _sass/custom/includes/pages/_posts.scss
+$border: #ededed !default;
+$grey: #838c8d;
+$heading-color: #313237;
+
+// _sass/custom/includes/_card.scss
+$bg-color: #fff !default;

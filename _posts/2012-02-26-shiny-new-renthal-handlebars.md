@@ -2,7 +2,7 @@
 title: Shiny new Renthal bars
 description: Adding Bling
 category: CB500
-image: /assets/images/normal/2012/02/cimg3749.jpg
+featured-img: normal/2012/02/cimg3749
 image-caption: test image caption
 type: post # used in _layouts/posts.html:section
 # Note: layout type of files in '_posts' is configured as 'post' in _config.yml

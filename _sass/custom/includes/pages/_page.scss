@@ -1,0 +1,26 @@
+.page-content {
+  max-width: 52.5rem;
+  margin: 0 auto;
+  padding: 2.5em 0;
+
+  // breakpoints mixins defined in: _sass/bootstrap/mixins/_breakpoints.scss
+  // breakpoint breakpointname variables (`$grid-breakpoints`) defined in: _sass/bootstrap/_variables.scss
+  @include media-breakpoint-up(md) {
+    padding: 3.75rem 0;
+  }
+}
+
+.blog {
+  background-color: #f9f9f9;
+}
+
+.post-list {
+  padding-top: 2.5em;
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 0 auto;
+
+  @include media-breakpoint-up(md) {
+    padding-top: 5em;
+  }
+}

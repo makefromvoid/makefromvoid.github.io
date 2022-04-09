@@ -7,34 +7,17 @@
 // _site/assets/styles.css is referenceced in head.html:head.link.stylesheet
 
 // Note: order of processing is from top to bottom so styles in the last sass override those in the first sass
-@import "custom/_variables"; // contains scss variables used in various sass scripts
+
+// contains scss variables used in various sass scripts
+@import "custom/_variables";
+
 @import "bootstrap/bootstrap";
+@import "custom/includes/pages/page";
+@import "custom/includes/pages/post";
+@import "custom/includes/card";
 @import "custom/includes/navbar";
 @import "custom/includes/jumbotron";
 @import "main"; // reference to _sass/main.scss
 
-// Finally
-//@import "debug" // add outlines to elements
-
-
-//@import "custom/_variables";
-
-
-
-
-// from Sakura Jekyll theme
-//@import "./custom/_variables";
-//@import "./bootstrap/bootstrap";
-//@import "./instantsearch/instantsearch";
-//@import "./instantsearch/instantsearch-theme-algolia";
-//@import "./custom/includes/buttons";
-//@import "./custom/includes/card";
-//@import "./custom/includes/copy_to_clipboard";
-//@import "./custom/includes/navbar";
-//@import "./custom/includes/images";
-//@import "./custom/includes/jumbotron";
-//@import "./custom/includes/pagination";
-//@import "./custom/includes/social_links";
-//@import "./custom/includes/syntax_highlighting";
-//@import "./custom/includes/tables";
-//@import "./custom/includes/type";
+// DEBUG
+// @import "debug" // add outlines to elements

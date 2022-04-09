@@ -2,7 +2,7 @@
 title: Milk Carton truck
 description: Hot glue Fun
 category: Craft
-image: /assets/images/normal/2010/12/cimg2619.jpg
+featured-img: normal/2010/12/cimg2619
 image-caption: test image caption
 type: post # used in _layouts/posts.html:section
 # Note: layout type of files in '_posts' is configured as 'post' in _config.yml

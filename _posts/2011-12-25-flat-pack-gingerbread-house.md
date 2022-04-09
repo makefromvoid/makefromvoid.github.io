@@ -2,7 +2,7 @@
 title: Flat pack gingerbread house
 description: Tasty DIY
 category: 
-image: /assets/images/normal/2011/12/img_3974.jpg
+featured-img: normal/2011/12/img_3974
 image-caption: test image caption
 type: post # used in _layouts/posts.html:section
 # Note: layout type of files in '_posts' is configured as 'post' in _config.yml

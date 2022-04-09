@@ -2,7 +2,7 @@
 title: Rabbit bungalow
 description: Luxury Living for Bunnies
 category: Wood work
-image: /assets/images/normal/2012/04/img_4253.jpg
+featured-img: normal/2012/04/img_4253
 image-caption: test image caption
 type: post # used in _layouts/posts.html:section
 # Note: layout type of files in '_posts' is configured as 'post' in _config.yml
