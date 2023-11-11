@@ -11,26 +11,26 @@ The Easter holidays are here and what better time to make a bird house. Well act
 Anyway, that's not stopping us. There are plenty of examples on the web, here is an <a title="example" href="http://www.livios.be/nl/_build/_surr/_asse/6700.asp">example</a>.
 Here is the plan..
 
-![]({{ site.baseurl }}/assets/images/normal/2012/04/nestkastje.jpg){:class="img-blog-post"}
+{% include image.html src="/assets/images/normal/2012/04/nestkastje.jpg" %}
 
 I found a leftover piece of 18mm ply from the work bench project. Figuring out the cuts is an ideal way of practicing some of the math we have learned in school (quaternions mainly since we are working in 3D Space).
 
-![]({{ site.baseurl }}/assets/images/normal/2012/04/img_4106_small.jpg){:class="img-blog-post"}
+{% include image.html src="/assets/images/normal/2012/04/img_4106.jpg" %}
 
 Even though she had a fracture in her collar bone Tess was all up for helping to assemble.
 
-![]({{ site.baseurl }}/assets/images/normal/2012/04/img_4108_small.jpg){:class="img-blog-post"}
+{% include image.html src="/assets/images/normal/2012/04/img_4108.jpg" %}
 
-![]({{ site.baseurl }}/assets/images/normal/2012/04/img_4109_small.jpg){:class="img-blog-post"}
+{% include image.html src="/assets/images/normal/2012/04/img_4109.jpg" %}
 
 Quality Control is taken seriously around here..
 
-![]({{ site.baseurl }}/assets/images/normal/2012/04/img_4107_small.jpg){:class="img-blog-post"}
+{% include image.html src="/assets/images/normal/2012/04/img_4107.jpg" %}
 
 The house is ready to be put up..
 
-![]({{ site.baseurl }}/assets/images/normal/2012/04/img_4110_small.jpg){:class="img-blog-post"}
+{% include image.html src="/assets/images/normal/2012/04/img_4110.jpg" %}
 
 The tree is crooked, really!
 
-![]({{ site.baseurl }}/assets/images/normal/2012/04/img_4111_small.jpg){:class="img-blog-post"}
+{% include image.html src="/assets/images/normal/2012/04/img_4111.jpg" %}

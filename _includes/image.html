@@ -1,0 +1,9 @@
+{% assign src_small = include.src | replace: ".jpg", "_small.jpg" %}
+<a href="{{ include.src }}" target="_blank" rel="noopener noreferrer">
+    <img 
+        src="{{ src_small }}" 
+        alt="{{ include.alt }}" 
+        title="{{ include.title }}" 
+        class="img-blog-post"
+    >
+</a>

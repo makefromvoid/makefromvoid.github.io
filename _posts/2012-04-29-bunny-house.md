@@ -9,16 +9,16 @@ type: post # used in _layouts/posts.html:section
 ---
 Tess got 2 pet bunnies for her birthday which provided an excellent excuse to get the circular saw out...<br>
 After a lengthy consulting session with the client blue prints were drawn up and submitted for approval.<br>
-![]({{ site.baseurl }}/assets/images/normal/2012/04/scan0051_small.jpg){:class="img-blog-post"}
+{% include image.html src="/assets/images/normal/2012/04/scan0051.jpg" %}
 
 2 Sheets of 18mm ply were bought from the local Builder Provider and the cutting began. Tess really got stuck in..<br>
-![]({{ site.baseurl }}/assets/images/normal/2012/04/img_4121_small.jpg){:class="img-blog-post"}
+{% include image.html src="/assets/images/normal/2012/04/img_4121.jpg" %}
 
 The only complaint I heard was that the tool belt was not Pink ;-) But at least the trousers were....<br>
-![]({{ site.baseurl }}/assets/images/normal/2012/04/img_4123_small.jpg){:class="img-blog-post"}
-![]({{ site.baseurl }}/assets/images/normal/2012/04/img_4124_small.jpg){:class="img-blog-post"} 
-![]({{ site.baseurl }}/assets/images/normal/2012/04/img_4125_small.jpg){:class="img-blog-post"}
+{% include image.html src="/assets/images/normal/2012/04/img_4123.jpg" %}
+{% include image.html src="/assets/images/normal/2012/04/img_4124.jpg" %} 
+{% include image.html src="/assets/images/normal/2012/04/img_4125.jpg" %}
 
 And here is the finished article, although Tess is determined to paint the house a more suitable colour (probably Pink). Fluffy and Sparkles are very happy with their dormer bungalow.<br>
-![]({{ site.baseurl }}/assets/images/normal/2012/04/img_4253_small.jpg){:class="img-blog-post"}
+{% include image.html src="/assets/images/normal/2012/04/img_4253.jpg" %}
 

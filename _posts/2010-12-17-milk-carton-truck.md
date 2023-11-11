@@ -11,8 +11,8 @@ I came across a blog post on a website called www.origamimommy.org (Update Feb 2
 
 Here are 2 pictures of the build in progress...
 
-![]({{ site.baseurl }}/assets/images/normal/2010/12/cimg2619_small.jpg){:class="img-blog-post"}
+{% include image.html src="/assets/images/normal/2010/12/cimg2619.jpg" %}
 
-![]({{ site.baseurl }}/assets/images/normal/2010/12/cimg2618_small.jpg){:class="img-blog-post"}
+{% include image.html src="/assets/images/normal/2010/12/cimg2618.jpg" %}
 
 Sean had great fun working with the hot glue gun and building the truck.

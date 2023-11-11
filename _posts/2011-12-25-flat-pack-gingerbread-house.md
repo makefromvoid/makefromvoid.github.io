@@ -11,19 +11,20 @@ Guess what, Ikea not only do flat pack furniture, they also do flat pack gingerb
 
 As with all Ikea assembly jobs, organisation is key, do we have all pieces and fasteners?
 
-![]({{ site.baseurl }}/assets/images/normal/2011/12/img_3945_small.jpg){:class="img-blog-post"}
+{% include image.html src="/assets/images/normal/2011/12/img_3945.jpg" %}
 
 Needless to say that assembling these houses is a job for the experts (both of them).
 
-![]({{ site.baseurl }}/assets/images/normal/2011/12/img_3953_small.jpg){:class="img-blog-post"}
-![]({{ site.baseurl }}/assets/images/normal/2011/12/img_3954_small.jpg){:class="img-blog-post"}
+{% include image.html src="/assets/images/normal/2011/12/img_3953.jpg" %}
+
+{% include image.html src="/assets/images/normal/2011/12/img_3954.jpg" %}
 
 What a combination, gingerbread and icing sugar and art, a match made in heaven.
 
 **Note**: It is extremely important to wear the correct gear, it can't be glamorous enough!
 
-![]({{ site.baseurl }}/assets/images/normal/2011/12/img_3966_small.jpg){:class="img-blog-post"}
+{% include image.html src="/assets/images/normal/2011/12/img_3966.jpg" %}
 
 And the result... Fairy wings and all.
 
-![]({{ site.baseurl }}/assets/images/normal/2011/12/img_3974_small.jpg){:class="img-blog-post"}
+{% include image.html src="/assets/images/normal/2011/12/img_3974.jpg" %}

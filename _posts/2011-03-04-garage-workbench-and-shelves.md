@@ -13,15 +13,16 @@ A couple of sheets of Plywood were ordered (244 x 122 cm) together with some '2 
 
 Again I had great help putting it all together.
 
-![]({{ site.baseurl }}/assets/images/normal/2011/03/img_1319_small.jpg){:class="img-blog-post"}
-![]({{ site.baseurl }}/assets/images/normal/2011/03/img_1321_small.jpg){:class="img-blog-post"}
+{% include image.html src="/assets/images/normal/2011/03/img_1319.jpg" %}
+
+{% include image.html src="/assets/images/normal/2011/03/img_1321.jpg" %}
 
 Each shelf was exactly one half of a sheet of ply wood, so minimal cutting of these sheets was required. Field test result are shown below. I'm very happy with how sturdy they are.
 
-![]({{ site.baseurl }}/assets/images/normal/2011/03/img_1315_small.jpg){:class="img-blog-post"}
+{% include image.html src="/assets/images/normal/2011/03/img_1315.jpg" %}
 
 Next was the work bench, I don't have a finished picture but this is to give an idea.
 
-![]({{ site.baseurl }}/assets/images/normal/2011/03/cimg3051_small.jpg){:class="img-blog-post"}
+{% include image.html src="/assets/images/normal/2011/03/cimg3051.jpg" %}
 
 Must take a picture of the finished product...

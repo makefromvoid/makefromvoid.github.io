@@ -7,7 +7,15 @@ featured-img: normal/2009/01/template.jpg
 image-caption: test image caption
 type: post # used in _layouts/posts.html:section
 # Note: layout type of files in '_posts' is configured as 'post' in _config.yml
+# Note: Jekyll markdown (https://www.markdownguide.org/tools/jekyll/) 
+#       https://kramdown.gettalong.org/quickref.html
 ---
 <a href="https://makefromvoid.github.io//">Link to this site</a>.
 
-![]({{ site.baseurl }}/assets/images/normal/2009/01/template_small.jpg){:class="img-blog-post"}
+![alt-txt](/assets/images/normal/2009/01/template_small.jpg){:class="img-blog-post"}
+
+OR
+
+The below automatically appends _small jpg reference and makes image clickable
+
+{% include image.html src="/assets/images/normal/2009/01/template.jpg" %}

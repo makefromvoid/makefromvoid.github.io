@@ -15,29 +15,29 @@ With Halloween approaching it was time to look for a little project. I came acro
 
 So ebay to the rescue, ping pong balls galore and Phenoptix supplied the LED's (10mm-green-prewired-led-12v).
 
-![]({{ site.baseurl }}/assets/images/normal/2011/10/img_3732_small.jpg){:class="img-blog-post"}
+{% include image.html src="/assets/images/normal/2011/10/img_3732.jpg" %}
 
 Sean did a great job on the eyes..
 
-![]({{ site.baseurl }}/assets/images/normal/2011/10/img_3734_small.jpg){:class="img-blog-post"}
+{% include image.html src="/assets/images/normal/2011/10/img_3734.jpg" %}
 
 When we assembled the eyes the LED's created a bright spot inside the ping pong balls. A piece of cotton wool worked nicely as a diffuser.
 
-![]({{ site.baseurl }}/assets/images/normal/2011/10/img_3735_small.jpg){:class="img-blog-post"}
+{% include image.html src="/assets/images/normal/2011/10/img_3735.jpg" %}
 
 The LED's and Ping Pong balls were hot glued to the Ice Lolly sticks (Popsicle sticks).
 
-![]({{ site.baseurl }}/assets/images/normal/2011/10/img_3760_small.jpg){:class="img-blog-post"}
+{% include image.html src="/assets/images/normal/2011/10/img_3760.jpg" %}
 
 I got some mini servos on ebay and I used a small attiny 2313 breadboard header (from <a title="Tinkerlog" href="http://tinkerlog.com/2009/01/18/attiny-breadboard-headers/">Tinkerlog</a>), from a previous project, to drive the servo and the LED's.
 
 Note the LED's were driven by a small NPN transistor. We needed a waterproof project box and the box containing decking screws did the job just fine.
 
-![]({{ site.baseurl }}/assets/images/normal/2011/10/img_3757_small.jpg){:class="img-blog-post"}
+{% include image.html src="/assets/images/normal/2011/10/img_3757.jpg" %}
 
 Ready to be tested..
 
-![]({{ site.baseurl }}/assets/images/normal/2011/10/img_3762_small.jpg){:class="img-blog-post"}
+{% include image.html src="/assets/images/normal/2011/10/img_3762.jpg" %}
 
 Below is a video of the eyes in action, they did look very spooky out in the garden on Haloween night and were a great sucess with the 'trick or treaters'
 
@@ -49,6 +49,6 @@ Below is a video of the eyes in action, they did look very spooky out in the gar
 <br>
 Of course there were pumpkins as well!
 
-![]({{ site.baseurl }}/assets/images/normal/2011/10/img_3803_small.jpg){:class="img-blog-post"}
+{% include image.html src="/assets/images/normal/2011/10/img_3803.jpg" %}
 
 Due to a hard drive crash I have no Schematics or Code, the board was a standard Atmel Attiny2313 setup with a NPN transistor driving the LED's and the servo was driven directly by the Attiny, some pwm code...
